@@ -15,9 +15,7 @@ h1 {
   color: goldenrod;
 }
 p{
-  font-size: 1em;
-  margin: 0px;
-  color: white;
+
 }
 .wrapper {
   display: flex;
@@ -26,8 +24,8 @@ p{
   align-self: center;
   border: solid black 1px;
   min-height: 2.5em;
+  margin: 8em 6em;
   background-color: white;
-  margin: 150px;
 }
 
 .speechOutput {
@@ -42,6 +40,8 @@ p{
 display: flex;
 justify-content: end;
 flex-direction: column;
-min-height: 25vh;
-align-self: center;
+min-height: 30vh;
+font-size: 1em;
+margin: 0px;
+color: white;
 }
