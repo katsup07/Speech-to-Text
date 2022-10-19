@@ -1,0 +1,17 @@
+{
+  "name": "speech-to-text-main",
+  "version": "1.0.0",
+  "description": "Converts users speech to on screen text.",
+  "main": "handlers.js",
+  "scripts": {
+    "start": "open-cli http:localhost:8080 && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "open-cli": "^7.1.0"
+  }
+}
