@@ -1,5 +1,5 @@
 # Speech-to-Text
-Converts users speech to on screen text.
+Converts users speech to on screen text
 
 In the project directory, you can run:
 
