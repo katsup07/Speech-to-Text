@@ -5,8 +5,10 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
 function start() {
   // see if their browser supports this
-  if (!('SpeechRecognition' in window)) { // checks for such property
-    console.log('Sorry. Your browser does not support speech recognition currently.');
+  if (!('SpeechRecognition' in window) ||!(SpeechRecognition)) { // checks for such property
+    const speechOutputDiv = document.querySelector('.speechOutput');
+    speechOutputDiv.innerHTML = '<p>Sorry, but your browser does not support speech recognition currently. Try using chrome.</p>';
+    console.error('Sorry. Your browser does not support speech recognition currently. Try using chrome.');
     return;
   }
   console.log('Starting...');
